@@ -1,0 +1,78 @@
+.header {
+  font-size: 35px;
+  border: 2px solid black;
+  padding: 1.5em;
+  background: black;
+  color: white;
+  text-align: right;;
+}
+
+.qns {
+  display: flex;
+  border: 2px solid black;
+  padding: 9em;
+  background: #2E0927;
+  color: white;
+  padding-left: 300px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+button {
+  color: black;
+  font-weight: bold;
+  background: #FF8C00;
+  text-transform: uppercase;
+  border: 1px solid black;
+  height: 45px;
+  width:110px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+button:hover {
+  color: #FFF;
+  background: #900;
+}
+
+#restart {
+  background: black;
+  color: #FF8C00;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #611427;
+  height: 250px;
+  color: white;
+}
+
+h3 {
+  padding: 1em 2em 1em 2em;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.timer {
+  height: 35px;
+  width: 75px;
+  margin-left: 580px;
+  font-size:30px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .timer {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 449px) and (max-width: 900px) {
+  .timer {
+    margin-left: 150px;
+  }
+}
