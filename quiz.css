@@ -10,10 +10,10 @@
 .qns {
   display: flex;
   border: 2px solid black;
-  padding: 9em;
+  padding: 8em;
   background: #2E0927;
   color: white;
-  padding-left: 300px;
+  padding-left: 100px;
 }
 
 h1 {
@@ -65,14 +65,16 @@ h3 {
   font-size:30px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 720px) and (max-width: 970px) {
   .timer {
     margin-left: 50px;
   }
+  .qns {
+    padding-left: 100px;
+  }
 }
 
-@media screen and (min-width: 449px) and (max-width: 900px) {
-  .timer {
-    margin-left: 150px;
-  }
+@media screen and (min-width: 580px) and (max-width: 720px) {
+  .scoreboard {
+    padding-left: 500px;
 }

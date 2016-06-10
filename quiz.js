@@ -8,7 +8,7 @@ function Question (prompt, answers, correctAnswerIndex) {
 
 //declaring var
 var question1 = new Question('It is possible to sneeze with your eyes open.', ['true', 'false'], 1);
-var question2 = new Question('As many as 8% of women and 0.5% of men have red-green color blindness.', ['true', 'false'], 1);
+var question2 = new Question('8% of women and 0.5% of men have red-green color blindness.', ['true', 'false'], 1);
 var question3 = new Question('Dolphins sleep with one eye open.', ['true', 'false'], 0);
 var question4 = new Question('The world’s most common eye color is blue.', ['true', 'false'], 1);
 var question5 = new Question('The largest eye on the planet belongs to the Colossal Squid.', ['true', 'false'], 0);
